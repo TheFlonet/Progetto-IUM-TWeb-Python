@@ -1,0 +1,11 @@
+{
+    "matrixDim": 5,
+    "playerNum": 3,
+    "winScore": 50,
+    "lenScore": {
+        "3": 2,
+        "4": 10,
+        "5": 50
+    },
+    "spacing": "\t"
+}
