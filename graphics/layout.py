@@ -4,7 +4,7 @@ import PySimpleGUI as sg
 def inflate_initial_layout():
     return [[sg.Text('FILETTO', justification='c', font='Any 18')], [sg.Button('Play', size=(15, 2))],
             [sg.Button('Rules')],
-            [sg.Text('Game by: Barraco Christian, Bifulco Mario, Sciuto Samuele', justification='l')]]
+            [sg.Text('Game by: Barraco Cristian, Bifulco Mario, Sciuto Samuele', justification='l')]]
 
 
 def inflate_player_layout(player_num):
