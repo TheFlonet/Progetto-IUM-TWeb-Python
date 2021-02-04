@@ -1,6 +1,6 @@
 {
     "matrixDim": 5,
-    "playerNum": 3,
+    "playerNum": 2,
     "winScore": 50,
     "lenScore": {
         "3": 2,

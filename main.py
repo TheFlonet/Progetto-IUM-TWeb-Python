@@ -51,6 +51,7 @@ def main_loop():
             sg.popup('Rules', game.game_info())
         elif event == 'Exit':  # back to main window
             window.close()
+            game = GameBoard(game.config)
             window = sg.Window('Filetto', inflate_initial_layout(), element_justification='c')
             set_turn = False
         elif event == 'Start':  # from nicknames window to game board window
